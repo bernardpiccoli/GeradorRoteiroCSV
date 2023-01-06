@@ -1,8 +1,8 @@
 ﻿using GeradorRoteiroExecucao;
 using System.Configuration;
 
-Console.WriteLine("O Aquivo será montado de acordo com a ordem alfabetica dos aquivos. Coloque-os na pasta script");
-Console.WriteLine("Ficará no formato: (1, 001_SCRIPT.SQL, host, schema). Pressione ok para confirmar!");
+Console.WriteLine("O CSV será montado de acordo com a ordem alfabetica dos arquivos na pasta. Coloque-os na pasta script");
+Console.WriteLine("O CSV ficará no formato: (1, 001_SCRIPT.SQL, host, schema).");
 Console.WriteLine("Pressione ENTER para confirmar!");
 Console.ReadKey();
 
